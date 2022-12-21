@@ -321,11 +321,11 @@ else()
 endif()
 
 if(NCNN_DISABLE_RTTI)
-    target_compile_options(ncnn PUBLIC -fno-rtti)
+#    target_compile_options(ncnn PUBLIC -fno-rtti)
 endif()
 
 if(NCNN_DISABLE_EXCEPTION)
-    target_compile_options(ncnn PUBLIC -fno-exceptions)
+#    target_compile_options(ncnn PUBLIC -fno-exceptions)
 endif()
 
 if(NCNN_TARGET_ARCH STREQUAL "x86")
